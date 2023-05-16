@@ -1,3 +1,5 @@
+![alt text](https://raw.githubusercontent.com/bobby-tablez/Windows-Sandbox-Flare-VM/main/sandbox_flare.png)
+
 # Windows Sandbox - Flare VM
 This config file will automatically convert a temporary Windows Sandbox environment into a Flare VM for malware analysis.
 

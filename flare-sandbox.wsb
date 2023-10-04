@@ -8,6 +8,6 @@
     <vGPU>Enable</vGPU>
     <VideoInput>Disable</VideoInput>
     <LogonCommand>
-        <Command>powershell -executionpolicy unrestricted -command "start powershell {-noexit -command iwr -URI https://raw.githubusercontent.com/mandiant/flare-vm/main/install.ps1 -Outfile $env:TMP\install.ps1; Unblock-File $env:TMP\install.ps1;.$env:TMP\install.ps1 -noPassword -noWait -noGui -noChecks}"</Command>
+        <Command>powershell -executionpolicy unrestricted -command "start powershell {-noexit -command irm https://raw.githubusercontent.com/bobby-tablez/Enable-All-The-Logs/main/deploy_eatl.ps1|iex; iwr -URI https://raw.githubusercontent.com/mandiant/flare-vm/main/install.ps1 -Outfile $env:TMP\install.ps1; Unblock-File $env:TMP\install.ps1;.$env:TMP\install.ps1 -noPassword -noWait -noGui -noChecks}"</Command>
     </LogonCommand>
 </Configuration>

@@ -1,7 +1,7 @@
 ![alt text](https://raw.githubusercontent.com/bobby-tablez/Windows-Sandbox-Flare-VM/main/sandbox_flare.png)
 
 # Windows Sandbox - Flare VM
-This config file will automatically convert a temporary Windows Sandbox environment into a Flare VM for malware analysis.
+This config file will automatically convert a temporary Windows Sandbox environment into a Flare VM for malware analysis. Useful for standing up a "quick" flare-vm test environment on the fly. Additionally, enhanced logging telemetry is also enabled on the host. This is done by invoking https://github.com/bobby-tablez/Enable-All-The-Logs just before kicking off the flare-vm install. 
 
 ## Instructions
 Install WSB (Windows Sandbox) and ensure all prerequisites are met:
